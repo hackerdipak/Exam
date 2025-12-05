@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C Programming Exam</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f4f4f4; }
+        .question { margin-bottom: 20px; padding: 15px; background: white; border-radius: 10px; }
+        textarea { width: 100%; height: 80px; }
+        .timer { font-size: 22px; font-weight: bold; color: red; margin-bottom: 20px; }
+        button { padding: 10px 20px; font-size: 18px; }
+    </style>
+</head>
+<body>
+
+<h2>C Programming Exam – 100 Marks</h2>
+
+<div class="timer" id="timer">Time Left: 45:00</div>
+
+<!-- Updated form action to your Formspree endpoint -->
+<form id="examForm" action="https://formspree.io/f/xzznvkkk" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+
+<h3>MCQs (2 marks each)</h3>
+
+<div class="question">
+  <p>1. Use of scanf is?</p>
+  <input type="radio" name="Q1" value="To take input"> To take input<br>
+  <input type="radio" name="Q1" value="To print output"> To print output<br>
+</div>
+
+<div class="question">
+  <p>2. Use of \t is?</p>
+  <input type="radio" name="Q2" value="Tab space"> Tab space<br>
+  <input type="radio" name="Q2" value="New line"> New line<br>
+</div>
+
+<div class="question">
+  <p>3. Use of \\ is?</p>
+  <input type="radio" name="Q3" value="Print backslash"> Print backslash<br>
+  <input type="radio" name="Q3" value="Print forward slash"> Print forward slash<br>
+</div>
+
+<div class="question">
+  <p>4. What is stdio in &lt;stdio.h&gt;?</p>
+  <input type="radio" name="Q4" value="Standard Input Output"> Standard Input Output<br>
+  <input type="radio" name="Q4" value="Storage Input Output"> Storage Input Output<br>
+</div>
+
+<div class="question">
+  <p>5. What does return 0 mean?</p>
+  <input type="radio" name="Q5" value="Program ended successfully"> Program ended successfully<br>
+  <input type="radio" name="Q5" value="Error"> Error<br>
+</div>
+
+<div class="question">
+  <p>6. Which symbol ends every statement?</p>
+  <input type="radio" name="Q6" value=";"> ;<br>
+  <input type="radio" name="Q6" value=","> ,<br>
+</div>
+
+<div class="question">
+  <p>7. C is a ____ language.</p>
+  <input type="radio" name="Q7" value="High level"> High level<br>
+  <input type="radio" name="Q7" value="Low level"> Low level<br>
+</div>
+
+<div class="question">
+  <p>8. Which header is needed for printf?</p>
+  <input type="radio" name="Q8" value="stdio.h"> stdio.h<br>
+  <input type="radio" name="Q8" value="math.h"> math.h<br>
+</div>
+
+<div class="question">
+  <p>9. Which data type stores decimal numbers?</p>
+  <input type="radio" name="Q9" value="float"> float<br>
+  <input type="radio" name="Q9" value="int"> int<br>
+</div>
+
+<div class="question">
+  <p>10. Value assigned operator is?</p>
+  <input type="radio" name="Q10" value="="> =<br>
+  <input type="radio" name="Q10" value="=="> ==<br>
+</div>
+
+<!-- MCQs 11–25 -->
+<div class="question">
+  <p>11. Which symbol is used for comments in C?</p>
+  <input type="radio" name="Q11" value="//"> // <br>
+  <input type="radio" name="Q11" value="/* */"> /* */<br>
+</div>
+
+<div class="question">
+  <p>12. Which operator is used for multiplication?</p>
+  <input type="radio" name="Q12" value="*"> *<br>
+  <input type="radio" name="Q12" value="/"> /<br>
+</div>
+
+<div class="question">
+  <p>13. Default value of uninitialized int variable?</p>
+  <input type="radio" name="Q13" value="Garbage"> Garbage<br>
+  <input type="radio" name="Q13" value="0"> 0<br>
+</div>
+
+<div class="question">
+  <p>14. Which function is used to print output?</p>
+  <input type="radio" name="Q14" value="printf()"> printf()<br>
+  <input type="radio" name="Q14" value="scanf()"> scanf()<br>
+</div>
+
+<div class="question">
+  <p>15. Which header is needed for math functions?</p>
+  <input type="radio" name="Q15" value="math.h"> math.h<br>
+  <input type="radio" name="Q15" value="stdio.h"> stdio.h<br>
+</div>
+
+<div class="question">
+  <p>16. Which loop executes at least once?</p>
+  <input type="radio" name="Q16" value="do-while"> do-while<br>
+  <input type="radio" name="Q16" value="for"> for<br>
+</div>
+
+<div class="question">
+  <p>17. Correct syntax for if statement?</p>
+  <input type="radio" name="Q17" value="if(condition){}"> if(condition){}<br>
+  <input type="radio" name="Q17" value="if condition()"> if condition()<br>
+</div>
+
+<div class="question">
+  <p>18. What is the size of int (typical 32-bit)?</p>
+  <input type="radio" name="Q18" value="4 bytes"> 4 bytes<br>
+  <input type="radio" name="Q18" value="2 bytes"> 2 bytes<br>
+</div>
+
+<div class="question">
+  <p>19. Which operator is used for modulus?</p>
+  <input type="radio" name="Q19" value="%"> %<br>
+  <input type="radio" name="Q19" value="#"> #<br>
+</div>
+
+<div class="question">
+  <p>20. Which keyword is used to declare a constant?</p>
+  <input type="radio" name="Q20" value="const"> const<br>
+  <input type="radio" name="Q20" value="static"> static<br>
+</div>
+
+<div class="question">
+  <p>21. Which of these is a valid variable name?</p>
+  <input type="radio" name="Q21" value="myVar"> myVar<br>
+  <input type="radio" name="Q21" value="2var"> 2var<br>
+</div>
+
+<div class="question">
+  <p>22. Which function is used to read input?</p>
+  <input type="radio" name="Q22" value="scanf()"> scanf()<br>
+  <input type="radio" name="Q22" value="printf()"> printf()<br>
+</div>
+
+<div class="question">
+  <p>23. Which is used for logical AND?</p>
+  <input type="radio" name="Q23" value="&&"> &&<br>
+  <input type="radio" name="Q23" value="||"> ||<br>
+</div>
+
+<div class="question">
+  <p>24. Which keyword is used to return a value from a function?</p>
+  <input type="radio" name="Q24" value="return"> return<br>
+  <input type="radio" name="Q24" value="break"> break<br>
+</div>
+
+<div class="question">
+  <p>25. Which of these is a floating-point type?</p>
+  <input type="radio" name="Q25" value="float"> float<br>
+  <input type="radio" name="Q25" value="int"> int<br>
+</div>
+
+<h3>Subjective Questions</h3>
+
+<div class="question">
+  <p>26. WAP in C to print your name</p>
+  <textarea name="Q26"></textarea>
+</div>
+
+<div class="question">
+  <p>27. WAP in C to swap two numbers</p>
+  <textarea name="Q27"></textarea>
+</div>
+
+<div class="question">
+  <p>28. WAP in C to print area of rectangle</p>
+  <textarea name="Q28"></textarea>
+</div>
+
+<div class="question">
+  <p>29. WAP in C to print area of circle</p>
+  <textarea name="Q29"></textarea>
+</div>
+
+<div class="question">
+  <p>30. WAP in C to print area of triangle</p>
+  <textarea name="Q30"></textarea>
+</div>
+
+<div class="question">
+  <p>31. WAP in C to print area of square</p>
+  <textarea name="Q31"></textarea>
+</div>
+
+<div class="question">
+  <p>32. Explain printf, scanf, return 0</p>
+  <textarea name="Q32"></textarea>
+</div>
+
+<div class="question">
+  <p>33. WAP in C to calculate using arithmetic operators</p>
+  <textarea name="Q33"></textarea>
+</div>
+
+<button type="submit" onclick="calculateMCQScore()">Submit</button>
+
+</form>
+
+<script>
+// Timer
+let time = 45 * 60;
+setInterval(() => {
+    let min = Math.floor(time / 60);
+    let sec = time % 60;
+    document.getElementById("timer").innerText = `Time Left: ${min}:${sec < 10 ? '0'+sec : sec}`;
+    if (time <= 0) document.getElementById("examForm").submit();
+    time--;
+}, 1000);
+
+// MCQ Auto-mark
+const correct = {
+  Q1:"To take input", Q2:"Tab space", Q3:"Print backslash",
+  Q4:"Standard Input Output", Q5:"Program ended successfully",
+  Q6:";", Q7:"High level", Q8:"stdio.h", Q9:"float", Q10:"=",
+  Q11:"/* */", Q12:"*", Q13:"Garbage", Q14:"printf()", Q15:"math.h",
+  Q16:"do-while", Q17:"if(condition){}", Q18:"4 bytes", Q19:"%", Q20:"const",
+  Q21:"myVar", Q22:"scanf()", Q23:"&&", Q24:"return", Q25:"float"
+};
+
+function calculateMCQScore(){
+    let form = new FormData(document.getElementById("examForm"));
+    let score = 0;
+    for(let q in correct){
+        if(form.get(q)===correct[q]) score += 2;
+    }
+    alert("Your MCQ Score: " + score + "/50\nSubjectives will be sent to email");
+}
+</script>
+
+</body>
+</html>
